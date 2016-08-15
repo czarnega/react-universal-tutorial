@@ -2,10 +2,10 @@
   "name": "react-universal-tutorial",
   "version": "0.1.0",
   "description": "Introductory tutorial for server side rendering with React",
-  "main": "index.js",
+  "main": "server/server.js",
   "scripts": {
-    "start": "node server",
-    "start-prod": "npm run build && NODE_ENV=production PORT=3000 node server",
+    "start": "node server/server.js",
+    "start-prod": "npm run build && NODE_ENV=production PORT=3000 node server/server.js",
     "build": "NODE_ENV=production webpack --config ./webpack.production.config.js --progress"
   },
   "repository": {
