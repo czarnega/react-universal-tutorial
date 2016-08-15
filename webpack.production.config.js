@@ -42,12 +42,7 @@ module.exports = {
     loaders: [{
       test: /\.js?$/,
       loader: 'babel',
-      include: path.join(__dirname, 'app'),
-      query: {
-        plugins: [
-          ['transform-object-assign']
-        ]
-      }
+      include: path.join(__dirname, 'app')
     }]
   }
 };

@@ -34,8 +34,7 @@ module.exports = {
               // This is important for Webpack HMR:
               locals: ['module']
             }]
-          }],
-          ['transform-object-assign']
+          }]
         ]
       }
     }]
