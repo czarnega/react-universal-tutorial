@@ -1,0 +1,34 @@
+{
+  "name": "react-universal-tutorial",
+  "version": "0.1.0",
+  "description": "Introductory tutorial for server side rendering with React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/czarnega/react-universal-tutorial.git"
+  },
+  "author": "Colin Zarnegar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/czarnega/react-universal-tutorial/issues"
+  },
+  "homepage": "https://github.com/czarnega/react-universal-tutorial#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "react": "^15.3.0",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.6.1",
+    "redux": "^3.5.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.13.2",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-0": "^6.5.0",
+    "webpack": "^1.13.1"
+  }
+}
