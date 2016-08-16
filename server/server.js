@@ -5,7 +5,7 @@ const express = require('express');
 const webpack = require('webpack');
 const dev = require('webpack-dev-middleware');
 const hot = require('webpack-hot-middleware');
-const config = require('./webpack.config.js');
+const config = require('../webpack.config.js');
 
 const port = process.env.PORT || 3000;
 const server = express();
@@ -47,7 +47,7 @@ if (!process.env.NODE_ENV) {
   server.use(hot(compiler));
 }
 
-server.get('*', require('./app').serverMiddleware);
+server.get('*', require('../src').serverMiddleware);
 
 server.listen(port, (err) => {
   if (err) console.error(err);
