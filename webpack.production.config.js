@@ -15,7 +15,7 @@ class CleanPlugin {
 }
 
 module.exports = {
-  entry: './app/index',
+  entry: './src/index',
   output: {
     path: path.join(__dirname, 'dist'),
     filename: 'app.min.js',
@@ -42,7 +42,7 @@ module.exports = {
     loaders: [{
       test: /\.js?$/,
       loader: 'babel',
-      include: path.join(__dirname, 'app')
+      include: path.join(__dirname, 'src')
     }]
   }
 };
